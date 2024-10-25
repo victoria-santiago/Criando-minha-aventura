@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html Lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <title>Criando uma aventura</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.jpg" alt="">
+            <p>Enquanto atendia ocorrências de um bêbado qualquer na delegacia. Uma ligação chega, uma mulher havia sido assassinada!</p>
+            <button class="btn-proximo" data-proximo="1">Investigar</button>
+            <button class="btn-proximo" data-proximo="2">Deixar quieto</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Chegando ao local, o corpo se encontrava ensanguentado no chão de um AirBnb.</p>
+            <button class="btn-proximo" data-proximo="3">Mexer no corpo</button>
+            <button class="btn-proximo" data-proximo="4">Esperar os legistas</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>A perícia descobriu que a vítima havia sido dopada e a causa da morte foi uma garrafa de champanhe inserida no pescoço.</p>
+            <button class="btn-proximo" data-proximo="5">Coletar dados.</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Descobriu-se que a vítima era mulher de um mafioso que comandava o quartel de tráfico de Chicago.</p>
+            <button class="btn-proximo" data-proximo="6">Escutar depoimento da melhor amiga que achou o corpo</button>
+            <button class="btn-proximo" data-proximo="7">Escutar depoimento do marido que não estava na cidade no dia</button>
+        </div>
+
+        <div class="passo" id passo="passo-4">
+            <p>A melhor amiga estava super inquieta e nervosa, o que levou ao viúvo acalma-la com bastante intimidade.</p>
+            <button class="btn-proximo" data-proximo="8">Conversar com a psicologia forense para identificar a linguagem corpotal bastante afetiva dos dois que achou suspeita</button>
+            <button class="btn-proximo" data-proximo="9">Não questionar por ele pagar propina para a polícia não se meter no seu caminho</button>
+        </div>
+
+        <div class="passo" id passo="passo-5">
+            <p>Por um detalhe mínimo de descuido, a digital da mulher foi encontrada na ponta da garrafa.</p>
+            <button class="btn-proximo" data-proximo="10">Prender ela</button>
+            <button class="btn-proximo" data-proximo="11">Deixar ela fugir</button>
+        </div>
+
+        <div class="passo" id passo="paso-6">
+            <p>Sobre pressão, ela confessou o crime e o realizou porque tinha um caso com o marido da melhor amiga e inveja da família feliz que ela tinha.</p>
+        </div>
+        
+    </main>   
+    <script src="script.js"></script>
+</body>
+</html>
